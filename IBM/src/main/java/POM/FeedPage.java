@@ -29,7 +29,7 @@ public class FeedPage {
 		Thread.sleep(2000);
 		PageFactory.initElements(driver, this);	
 	}
-	
+	//
 	   public void seachForProfile() throws IOException, InterruptedException 
 		{
 		   Utility.screenshot(this.driver,this.testId,this.browserName);
