@@ -18,7 +18,7 @@ public class FeedPage {
 
 	@FindBy (xpath = "//input[@placeholder='Search Facebook']")
 	private WebElement searchtool;
-	
+	///
 	public FeedPage() {}
 	public FeedPage(WebDriver driver, String testId, String browserName) throws InterruptedException 
 	{
