@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" thread-count="4" parallel="tests">
+
+
+  
+  <test name="Opera">
+   <parameter name="browsers" value="Opera"></parameter>
+    <classes>
+      <class name="com.test.IBM.Logintofb"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

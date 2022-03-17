@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Opera(failed)">
+    <parameter name="browsers" value="Opera"/>
+    <classes>
+      <class name="com.test.IBM.Logintofb">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testA"/>
+          <include name="launchBrowser"/>
+          <include name="afterMethod"/>
+          <include name="createOfPOMClasses"/>
+          <include name="closedBrowser"/>
+          <include name="clearPOMobject"/>
+        </methods>
+      </class> <!-- com.test.IBM.Logintofb -->
+    </classes>
+  </test> <!-- Opera(failed) -->
+</suite> <!-- Failed suite [Suite] -->
